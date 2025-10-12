@@ -50,6 +50,10 @@ function show_alarms() {
   })
 }
 
+function del_alarm(i) {
+  alarms.splice(i, 1)
+  show_alarms()
+}
 
 document.getElementById("clear_all").addEventListener("click", function() {
   alarms = []
@@ -65,4 +69,5 @@ function to12(t) {
   h = ((h + 11) % 12 + 1)
   return h + ":" + m + ":00 " + ap
 }
+
 
