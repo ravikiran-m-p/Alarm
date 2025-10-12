@@ -7,3 +7,25 @@ body {
 h1, h2, h3 {
   color: gold;
 }
+
+.card {
+  background: linear-gradient(145deg, #111, #000);
+  border: 2px solid gold;
+  box-shadow: 0 0 20px rgba(255,215,0,0.3);
+  border-radius: 15px;
+}
+
+.btn-warning {
+  background-color: gold;
+  border-color: gold;
+  color: black;
+}
+
+.btn-warning:hover {
+  background-color: #ffcf33;
+}
+
+.btn-outline-light:hover {
+  background-color: gold;
+  color: black;
+}
