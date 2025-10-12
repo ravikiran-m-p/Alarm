@@ -18,3 +18,25 @@ function show_time() {
   })
 }
 
+setInterval(show_time, 1000)
+
+document.getElementById("set_alarm").addEventListener("click", function() {
+  let t = alarm_time.value
+  let f = audio_file.files[0]
+  if (!t || !f) {
+    alert("please pick a time and sound")
+    return
+  }
+  let r = new FileReader()
+  r.onload = function(e) {
+    let a = {}
+    a.time = to12(t)
+    a.sound = e.target.result
+    a.done = false
+    alarms.push(a)
+    show_alarms()
+  }
+  r.readAsDataURL(f)
+})
+
+
