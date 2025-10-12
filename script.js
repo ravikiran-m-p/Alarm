@@ -39,4 +39,17 @@ document.getElementById("set_alarm").addEventListener("click", function() {
   r.readAsDataURL(f)
 })
 
+function show_alarms() {
+  alarm_list.innerHTML = ""
+  alarms.forEach((a, i) => {
+    let li = document.createElement("li")
+    li.className = "list-group-item"
+    li.innerHTML = `<span>${a.time}</span>
+    <button class="btn btn-sm" onclick="del_alarm(${i})">X(cancel)</button>`
+    alarm_list.appendChild(li)
+  })
+}
+
+
+
 
