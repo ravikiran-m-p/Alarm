@@ -51,5 +51,18 @@ function show_alarms() {
 }
 
 
+document.getElementById("clear_all").addEventListener("click", function() {
+  alarms = []
+  show_alarms()
+  alert("all alarms cleared")
+})
 
+function to12(t) {
+  let parts = t.split(":")
+  let h = parseInt(parts[0])
+  let m = parts[1]
+  let ap = h >= 12 ? "PM" : "AM"
+  h = ((h + 11) % 12 + 1)
+  return h + ":" + m + ":00 " + ap
+}
 
