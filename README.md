@@ -1,1 +1,13 @@
 # Alaram
+
+
+in the output screen while entering the button only alrams satrts as the problems is 
+:
+
+  browsers dont allow music or sound to play by itself 
+  without the user doing something first 
+  like a click or tap its a rule for privacy and spam control 
+  so the alarm cant just start the song on its own 
+  you need at least one user action 
+  to let the page play sounds 
+  after that first click it can play sounds automatically
