@@ -29,3 +29,24 @@ h1, h2, h3 {
   background-color: gold;
   color: black;
 }
+
+.list-group-item {
+  background-color: #111;
+  color: gold;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item button {
+  color: gold;
+  border: 1px solid gold;
+}
+
+.list-group-item button:hover {
+  background-color: gold;
+  color: black;
+}
+
+
