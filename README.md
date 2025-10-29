@@ -32,3 +32,7 @@ This is a privacy and spam control rule.
 Because of this, the alarm sound will not start on its own unless the user has clicked or tapped on the page first.  
 After the first user interaction (like clicking the “Add Alarm” button), sounds can play automatically for the rest of the session.
 
+##  How to Run Locally
+1. Clone the repository.  
+2. Open the project folder.  
+3. Open the `index.html` file in any browser. 
