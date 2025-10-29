@@ -14,8 +14,7 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 
 ## Technologies Used
 - HTML5  
-- CSS3  
-- Bootstrap 5  
+- CSS3
 - JavaScript (ES6)
 
 ## How It Works
