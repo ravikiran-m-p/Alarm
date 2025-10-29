@@ -11,3 +11,9 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 - Modern gold-on-black theme with glowing UI  
 - Fully client-side, no backend required  
 
+
+## Technologies Used
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- JavaScript (ES6)
