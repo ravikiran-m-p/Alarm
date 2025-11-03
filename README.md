@@ -32,8 +32,10 @@ Because of this, the alarm sound will not start on its own unless the user has c
 After the first user interaction (like clicking the “Add Alarm” button), sounds can play automatically for the rest of the session.
 
 ##  How to Run Locally
-1. Clone the repository ```bash
+1. Clone the repository
+ ```
  https://github.com/ravikiran-m-p/Alarm.git```
+```
 3. Open the project folder.  
 4. Open the `index.html` file in any browser.
 
