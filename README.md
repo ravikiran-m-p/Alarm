@@ -34,10 +34,11 @@ After the first user interaction (like clicking the “Add Alarm” button), sou
 ##  How to Run Locally
 1. Clone the repository
  ```
- https://github.com/ravikiran-m-p/Alarm.git```
+ https://github.com/ravikiran-m-p/Alarm.git
 ```
-3. Open the project folder.  
-4. Open the `index.html` file in any browser.
+2. Open the project folder.  
+3. Open the `index.html` file in any browser.
+
 
 ## Future Enhancements
 - Snooze feature  
