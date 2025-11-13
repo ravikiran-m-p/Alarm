@@ -16,6 +16,7 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 - HTML5  
 - CSS3
 - JavaScript (ES6)
+---
 
 ## How It Works
 1. The live clock updates every second.  
