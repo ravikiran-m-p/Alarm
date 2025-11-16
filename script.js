@@ -4,12 +4,14 @@ let audio_file = document.getElementById("audio_file")
 let alarm_list = document.getElementById("alarm_list")
 let alarms = []
 
-function show_time() {
+function show_time()
+{
   let now = new Date()
   let time_str = now.toLocaleTimeString('en-US', { hour12: true })
   clock.textContent = time_str
   alarms.forEach(a => {
-    if (!a.done && time_str === a.time) {
+    if (!a.done && time_str === a.time)
+    {
       let s = new Audio(a.sound)
       s.play()
       alert("⏰ Alarm for " + a.time + " is ringing!")
@@ -39,7 +41,8 @@ document.getElementById("set_alarm").addEventListener("click", function() {
   r.readAsDataURL(f)
 })
 
-function show_alarms() {
+function show_alarms()
+{
   alarm_list.innerHTML = ""
   alarms.forEach((a, i) => {
     let li = document.createElement("li")
@@ -50,7 +53,8 @@ function show_alarms() {
   })
 }
 
-function del_alarm(i) {
+function del_alarm(i)
+{
   alarms.splice(i, 1)
   show_alarms()
 }
@@ -69,5 +73,6 @@ function to12(t) {
   h = ((h + 11) % 12 + 1)
   return h + ":" + m + ":00 " + ap
 }
+
 
 
