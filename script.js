@@ -14,7 +14,7 @@ function show_time()
     {
       let s = new Audio(a.sound)
       s.play()
-      alert("⏰ Alarm for " + a.time + " is ringing!")
+      alert(" Alarm for " + a.time + " is ringing!")
       a.done = true
     }
   })
@@ -73,6 +73,7 @@ function to12(t) {
   h = ((h + 11) % 12 + 1)
   return h + ":" + m + ":00 " + ap
 }
+
 
 
 
