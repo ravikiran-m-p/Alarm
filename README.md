@@ -2,8 +2,7 @@
 
 A sleek and elegant web-based alarm clock built using HTML, CSS, JavaScript. 
 Easily set multiple alarms, choose your own sound files, and get notified when it’s time — with a touch of gold .
-
-
+---
 
 ## Features
 - Real-time digital clock display  
