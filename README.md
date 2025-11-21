@@ -25,6 +25,8 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 2. You can select a time and choose any audio file for your alarm.  
 3. When the time matches, the sound plays and a popup alert appears.  
 4. You can cancel individual alarms or clear all alarms easily.
+  
+---
 
 ## Browser Audio Restriction
 Browsers do not allow websites to play sound automatically without user interaction.  
@@ -32,6 +34,8 @@ This is a privacy and spam control rule.
 
 Because of this, the alarm sound will not start on its own unless the user has clicked or tapped on the page first.  
 After the first user interaction (like clicking the “Add Alarm” button), sounds can play automatically for the rest of the session.
+
+---
 
 ##  How to Run Locally
 1. Clone the repository
