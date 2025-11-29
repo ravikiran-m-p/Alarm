@@ -25,7 +25,8 @@ setInterval(show_time, 1000)
 document.getElementById("set_alarm").addEventListener("click", function() {
   let t = alarm_time.value
   let f = audio_file.files[0]
-  if (!t || !f) {
+  if (!t || !f)
+  {
     alert("please pick a time and sound")
     return
   }
@@ -65,7 +66,8 @@ document.getElementById("clear_all").addEventListener("click", function() {
   alert("all alarms cleared")
 })
 
-function to12(t) {
+function to12(t)
+{
   let parts = t.split(":")
   let h = parseInt(parts[0])
   let m = parts[1]
@@ -73,6 +75,7 @@ function to12(t) {
   h = ((h + 11) % 12 + 1)
   return h + ":" + m + ":00 " + ap
 }
+
 
 
 
